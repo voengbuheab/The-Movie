@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 200vh;
+}
+
+.header {
+    background-color: dodgerblue;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    display: inline-block;
+}
+
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    margin-left: 30px;
+    font-style: normal;
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .col-sm-2 img {
+        width: 100%;
+        height: 80%;
+        border-radius: 5%;
+
+    }
+
+    .row {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .col-sm-2 p {
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .col-sm-2 img {
+        width: 100%;
+        border-radius: 5%;
+        float: left;
+        box-shadow: 0 0 5px 0;
+    }
+
+    .row {
+        background-color: rgb(255, 255, 255);
+        float: left;
+        padding: 10px;
+    }
+
+    .col-sm-2 p {
+        color: rgb(0, 0, 0);
+        float: left;
+        font-size: 13px;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    .col-4 {
+        float: left;
+    }
+
+    .col-sm-2 img:hover {
+
+        transform: (1.1);
+        transition: 0.1s;
+    }
+
+}
