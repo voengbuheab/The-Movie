@@ -4,9 +4,13 @@
     margin: 0;
     padding: 0;
 }
+.row {
+    background-color: royalblue;
+    width: 100%;
+}
 
 body {
-    height: 200vh;
+    height: 500vh;
 }
 
 .header {
@@ -70,7 +74,7 @@ body {
         transition: 0.7s;
     }
     .col-xs-12 {
-        background-color: rosybrown;
+        background-color: rgb(255, 255, 255);
         width: 225px;
     }
 }
@@ -107,7 +111,7 @@ body {
 
 .col-xs-12 {
     background-color: rgb(255, 255, 255);
-    width: 46.5%;
+    width: 50%;
     
 }
 /*Medium devices (tablets, 768px and up)*/
@@ -131,7 +135,7 @@ body {
 }
 
 .col-md-4 p {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 18px;
 
 }
@@ -142,7 +146,7 @@ body {
 
 .col-xs-12 {
     background-color: rgb(255, 255, 255);
-    width: 46.5%;
+    width: 50%;
     
 }
 /*Small devices (landscape phones, 576px and up)*/
@@ -155,14 +159,15 @@ body {
 }
 
 .col-sm-6 {
-    width: 50%;
+    width: 100%;
     border-radius: 5%;
     float: left;
 }
 
 .row {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(89, 13, 13);
     float: left;
+    width: 100%;
 }
 
 .col-md-4 p {
@@ -177,9 +182,10 @@ body {
 
 .col-xs-12 {
     background-color: rgb(255, 255, 255);
-    width: 46.5%;
+    width: 20%;
     
 }
+
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     .col-md-4 img {
@@ -189,15 +195,10 @@ body {
         box-shadow: 0 0 5px 0;
     }
 
-    .col-sm-6 {
-        width: 50%;
-        border-radius: 5%;
-        float: left;
-    }
 
     .row {
         background-color: rgb(255, 255, 255);
-        float: left;
+        width: 106%;
     }
 
     .col-md-4 p {
@@ -206,13 +207,13 @@ body {
 
     }
 
-    .col-md-4 {
-        float: left;
-    }
+
 
     .col-xs-12 {
         background-color: rgb(255, 255, 255);
         width: 50%;
+
+        
         
     }
 }
