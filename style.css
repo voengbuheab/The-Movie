@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .row {
   background-color: royalblue;
@@ -39,6 +40,7 @@ body {
         width: 100%;
         border-radius: 5%;
         float: left;
+        height: 100%;
         box-shadow: 0 0 5px 0;
       }
     
@@ -49,14 +51,29 @@ body {
       }
     
       .col-md-4 p {
-        color: rgb(0, 0, 0);
-        font-size: 18px;
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: normal;
       }
       .col-md-4 {
         width: auto;
       }
      .col-xs-12 {
         width: 16.66%;
+        height: 250px;
+     }
+     .recommend {
+      background-color: dodgerblue;
+      width: 95%;
+      margin: auto;
+      border-radius: 2rem;
+      text-align: center;
+      padding: 15px;
+      font-size: 20px;
+      font-family: "Koulen", serif;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
      }
 }
 
@@ -71,6 +88,8 @@ body {
         width: 100%;
         border-radius: 5%;
         float: left;
+        max-height: 400px;
+        height: 70%;
         box-shadow: 0 0 5px 0;
       }
     
@@ -81,14 +100,17 @@ body {
       }
     
       .col-md-4 p {
-        color: rgb(0, 0, 0);
-        font-size: 18px;
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: normal;
       }
       .col-md-4 {
         width: auto;
       }
      .col-xs-12 {
         width: 20%;
+        max-height: 400px;
+        height: 380px;
      }
 }
 /*Medium devices (tablets, 768px and up)*/
@@ -102,6 +124,8 @@ body {
         width: 100%;
         border-radius: 5%;
         float: left;
+        max-height: 400px;
+        height: 70%;
         box-shadow: 0 0 5px 0;
       }
     
@@ -112,14 +136,17 @@ body {
       }
     
       .col-md-4 p {
-        color: rgb(0, 0, 0);
-        font-size: 18px;
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: normal;
       }
       .col-md-4 {
         width: auto;
       }
      .col-xs-12 {
         width: 25%;
+        max-height: 400px;
+        height: 380px;
      }
 }
 
@@ -133,9 +160,11 @@ body {
        }
       .col-md-4 img {
         width: 100%;
+        height: 70%;
         border-radius: 5%;
         float: left;
         box-shadow: 0 0 5px 0;
+        max-height: 400px
       }
     
       .container .row {
@@ -145,14 +174,17 @@ body {
       }
     
       .col-md-4 p {
-        color: rgb(0, 0, 0);
-        font-size: 18px;
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: normal;
       }
       .col-md-4 {
         width: auto;
       }
      .col-xs-12 {
         width: 33.3%;
+        max-height: 400px;
+        height: 380px;
      }
 }
 
@@ -166,25 +198,47 @@ body {
    }
   .col-md-4 img {
     width: 100%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
     border-radius: 5%;
     float: left;
     box-shadow: 0 0 5px 0;
+    max-height: 400px
   }
 
   .container .row {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(233, 0, 0);
     width: 100%;
     margin: auto;
+   
+    
   }
 
   .col-md-4 p {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
   }
   .col-md-4 {
     width: auto;
   }
  .col-xs-12 {
     width: 50%;
+    background-color: rgb(255, 255, 255);
+    max-height: 400px;
+    height: 400px;
+ }
+ .recommend {
+  background-color: dodgerblue;
+  width: 95%;
+  margin: auto;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Koulen", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
  }
 }
