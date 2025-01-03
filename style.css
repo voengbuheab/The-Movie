@@ -160,7 +160,7 @@ body {
        }
       .col-md-4 img {
         width: 100%;
-        height: 70%;
+        height: 60%;
         border-radius: 5%;
         float: left;
         box-shadow: 0 0 5px 0;
@@ -196,14 +196,15 @@ body {
     margin: auto;
     max-width: 575px;
    }
-  .col-md-4 img {
+  .col-md-4 img  {
     width: 100%;
-    height: 70%;
     background-color: rgb(255, 255, 255);
     border-radius: 5%;
     float: left;
     box-shadow: 0 0 5px 0;
-    max-height: 400px
+    max-height: 300px;
+    box-sizing: border-box;
+
   }
 
   .container .row {
