@@ -88,12 +88,22 @@ body {
     width: 100%;
     height: 10%;
     border-radius: 5%;
+    box-shadow: 0 0 5px 0;
+    margin-top: 10px;
   }
   .col-3 {
-    width: 15%;
+    width: 20%;
     height: 100%;
-    margin-top: 5%;
     border-radius: 5%;
+  }
+  .col-3 p {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .col-3 a {
+    text-decoration: none;
+    color: black;
   }
 }
 
@@ -103,14 +113,6 @@ body {
     background-color: rgb(255, 255, 255);
     width: 100%;
     max-width: 1180px;
-  }
-  .col-md-4 img {
-    width: 100%;
-    border-radius: 5%;
-    float: left;
-    max-height: 400px;
-    height: 70%;
-    box-shadow: 0 0 5px 0;
   }
 
   .container .row {
@@ -127,11 +129,7 @@ body {
   .col-md-4 {
     width: auto;
   }
-  .col-xs-12 {
-    width: 20%;
-    max-height: 400px;
-    height: 380px;
-  }
+
   .recommend {
     background-color: dodgerblue;
     width: 95%;
@@ -145,6 +143,27 @@ body {
     font-weight: 500;
     font-style: normal;
     color: rgb(255, 255, 255);
+  }
+.col-3 img {
+    width: 100%;
+    height: 10%;
+    border-radius: 5%;
+    box-shadow: 0 0 5px 0;
+    margin-top: 10px;
+  }
+  .col-3 {
+    width: 20%;
+    height: 100%;
+    border-radius: 5%;
+  }
+  .col-3 p {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .col-3 a {
+    text-decoration: none;
+    color: black;
   }
 }
 /*Medium devices (tablets, 768px and up)*/
@@ -196,6 +215,27 @@ body {
     font-style: normal;
     color: rgb(255, 255, 255);
   }
+  .col-3 img {
+    width: 100%;
+    height: 10%;
+    border-radius: 5%;
+    box-shadow: 0 0 5px 0;
+    margin-top: 10px;
+  }
+  .col-3 {
+    width: 25%;
+    height: 100%;
+    border-radius: 5%;
+  }
+  .col-3 p {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .col-3 a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -205,33 +245,11 @@ body {
     width: 100%;
     max-width: 1000px;
   }
-  .col-md-4 img {
-    width: 100%;
-    height: 65%;
-    border-radius: 5%;
-    float: left;
-    box-shadow: 0 0 5px 0;
-    max-height: 400px;
-  }
 
   .container .row {
     background-color: rgb(255, 255, 255);
     width: 100%;
     margin: auto;
-  }
-
-  .col-md-4 p {
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .col-md-4 {
-    width: auto;
-  }
-  .col-xs-12 {
-    width: 33.3%;
-    max-height: 400px;
-    height: 380px;
   }
   .recommend {
     background-color: dodgerblue;
@@ -246,6 +264,27 @@ body {
     font-size: 18px;
     font-style: normal;
     color: rgb(255, 255, 255);
+  }
+  .col-3 img {
+    width: 100%;
+    height: 10%;
+    border-radius: 5%;
+    box-shadow: 0 0 5px 0;
+    margin-top: 10px;
+  }
+  .col-3 {
+    width: 33.33%;
+    height: 100%;
+    border-radius: 5%;
+  }
+  .col-3 p {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .col-3 a {
+    text-decoration: none;
+    color: black;
   }
 }
 
@@ -281,6 +320,7 @@ body {
     height: 10%;
     border-radius: 5%;
     box-shadow: 0 0 5px 0;
+    margin-top: 10px;
   }
   .col-3 {
     width: 50%;
